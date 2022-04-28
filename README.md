@@ -51,3 +51,29 @@ cd build
 - [Alexander Lalejini](https://lalejini.com/)
 - [Emily Dolson](http://emilyldolson.com/)
 
+## Study Design
+
+To investigate how informative phylogenetic diversity is in evolutionary computation, we used a set of diagnostic suites which are designed to test the abilities of an evolutionary algorithm under a set of well-understood conditions. These diagnostics are:
+- exploitation rate diagnostic
+- ordered explotation diagnostic
+- multi-path exploration diagnostic
+- antagonistic contradictory objectives diagnostic
+- contradictory objectives diagnostic
+We ran 3 selections schemes (tournament, lexicase, epsilon lexicase) on these diagnostics and gathered a large amount of data, including some phylogenetic diversity metrics. We specifically use the "mean pairwise distance" metric in this paper and compare it with phynotypic richness. 
+
+## Results
+
+- Phylogenetic diversity is more informative than phenotypic diversity on landscapes with a single global optimum, in the lexicase and epsilon lexicase selection schemes. 
+- Phylogenetic diversity was uninformative in the context of tournament selection.
+- The difference between transfer entropy in phylogenetic and phenotypic diversity is the largest at a lag of 1000.
+- Evolutionary time scale strongly influences transfer entropy.
+
+## Future research
+
+- Phylogenetic diversity and phenotypic diversity are both broad classes of metrics, and their variations in different contexts can be investigated further. 
+- Understanding the role of evolutionary time scale in transfer entropy is an important direction for future research. 
+
+
+
+
+
