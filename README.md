@@ -53,6 +53,13 @@ cd build
 - [Alexander Lalejini](https://lalejini.com/)
 - [Emily Dolson](http://emilyldolson.com/)
 
+## Research overview
+This paper focuses on phylogenetic diversity, which unlike common meathos of measuring diversity in a population, takes into account the evolutionary history of a population. Measuring phylogenetic diversity involves quantifying the topology of a phylogenetic tree. the following figure is an example of a phylogeny tree. Each node in the tree is a distinct phenotype with a unique evolutionary origin. The leaf nodes show the individuals in the current population (extant taxa). 
+
+![Example phylogeny from a run of lexicase selection on the exploitation diagnostic landscape](lexicase_tree.jpg)
+
+
+
 ## Study Design
 
 To investigate how informative phylogenetic diversity is in evolutionary computation, we used a set of diagnostic suites which are designed to test the abilities of an evolutionary algorithm under a set of well-understood conditions. These diagnostics are:
