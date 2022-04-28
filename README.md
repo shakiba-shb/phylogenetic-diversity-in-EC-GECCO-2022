@@ -4,13 +4,12 @@ This repository contains all code and supplimental material for "Untangling phyl
 <a href="https://zenodo.org/badge/latestdoi/486358143"><img src="https://zenodo.org/badge/486358143.svg" alt="DOI"></a>
 
   **Contents:**
-  - [Abstract](https://github.com/emilydolson/phylodiversity-metrics-in-EC-GPTP-2021#abstract)
-  - [Supplemental information](https://github.com/emilydolson/phylodiversity-metrics-in-EC-GPTP-2021#supplemental-information)
-  - [Dependencies](https://github.com/emilydolson/phylodiversity-metrics-in-EC-GPTP-2021#dependencies)
-  - [Compilation](https://github.com/emilydolson/phylodiversity-metrics-in-EC-GPTP-2021#compilation)
-  - [Authors](https://github.com/emilydolson/phylodiversity-metrics-in-EC-GPTP-2021#authors)
-  - [Research overview](https://github.com/emilydolson/phylodiversity-metrics-in-EC-GPTP-2021#research-overview)
-  - [Repository contents](https://github.com/emilydolson/phylodiversity-metrics-in-EC-GPTP-2021#repository-contents)
+  - [Abstract](https://github.com/shakiba-shb/phylogenetic-diversity-in-EC-GECCO-2022#abstract)
+  - [Supplemental information]()
+  - [Dependencies](https://github.com/shakiba-shb/phylogenetic-diversity-in-EC-GECCO-2022#dependencies)
+  - [Compilation](https://github.com/shakiba-shb/phylogenetic-diversity-in-EC-GECCO-2022#compilation)
+  - [Authors](https://github.com/shakiba-shb/phylogenetic-diversity-in-EC-GECCO-2022#authors)
+  - [Research overview](https://github.com/shakiba-shb/phylogenetic-diversity-in-EC-GECCO-2022#research-overview)
 
 ## Abstract
 Diversity is associated with success in evolutionary algorithms. To date, diversity in evolutionary computation research has mostly been measured by counting the number of distinct candidate solutions in the population at a given time point. Here, we aim to investigate the value of phylogenetic diversity, which takes into account the evolutionary history of a population. To understand how informative phylogenetic diversity is, we run experiments on a set of diagnostic fitness landscapes under a range of different selection schemes. We find that phylogenetic diversity can be more predictive of future success than traditional diversity metrics under some conditions, particularly for fitness landscapes with a single, challenging-to-find global optimum. 
