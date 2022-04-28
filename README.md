@@ -19,20 +19,17 @@ Diversity is associated with success in evolutionary algorithms. To date, divers
 The supplimental information for this paper can be found here. 
 
 ## Dependencies
-To run these experiments, the Modular Agent Based Evolver (MABE2) is required: 
-- [MABE2](https://github.com/mercere99/MABE2)
+To run these experiments, the Modular Agent Based Evolver [MABE2](https://github.com/mercere99/MABE2) is required. MABE2 is a software framework that can build a wide variety of computational evolution scenarios and is designed to facilitate easy re-combination of common components such as fitness functions, selection schemes, populations, and so on.
 
 ## Compilation
 To complie and run the code used in this paper, take the following steps:
 
 ```{bash, shell_installation}
 # Clone MABE2
-git clone --recursive https://github.com/mercere99/MABE2.git
+git clone --recursive https://github.com/shakiba-shb/MABE2.git
 
 # Clone the repo for this project
-git clone --recursive 
-
-### Complex fitness landscapes
+git clone --recursive https://github.com/shakiba-shb/phylogenetic-diversity-in-EC-GECCO-2022.git
 
 # Compile MABE2
 cd MABE2/build
@@ -40,7 +37,7 @@ make
 
 # Tell MABE which configeration file to run
 cd build
-./MABE -f ../settings/PhylodiversityDiagnostics.mabe
+./MABE -f ../settings/configuration.mabe
 
 # To set parameters, use command line flags
 # e.g. to set the selection scheme, run --set selection_type = 0
@@ -58,7 +55,8 @@ This paper focuses on phylogenetic diversity, which unlike common meathos of mea
 
 ![Example phylogeny from a run of lexicase selection on the exploitation diagnostic landscape](lexicase_tree.jpg)
 
-
+In this paper, we use a phylogenetic metric called "mean pairwise distance". To calculate pairwise distance, we count the number of edges in the shortest path between each pair of extant taxa.
+The main goal of this research is to find out how informative phylogenetic diversity is. For this purpose, we compare phylogenetic diversity with phynotypic diversity. Phenotypic diversity measures the diversity of phenotypes in the population at any one point in time. We use the transfer entropy metric. More specifically, we measure the transfer entropy from phylogenetic diversity to fitness as well as from phenotypic diversity to fitness. We perform these calculations with lags ranging from 10 to 10000 generations.
 
 ## Study Design
 
@@ -81,8 +79,4 @@ We ran 3 selections schemes (tournament, lexicase, epsilon lexicase) on these di
 
 - Phylogenetic diversity and phenotypic diversity are both broad classes of metrics, and their variations in different contexts can be investigated further. 
 - Understanding the role of evolutionary time scale in transfer entropy is an important direction for future research. 
-
-
-
-
 
