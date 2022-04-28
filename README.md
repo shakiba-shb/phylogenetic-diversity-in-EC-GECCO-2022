@@ -1,6 +1,8 @@
 # phylogenetic-diversity-in-EC-GECCO-2022
 This repository contains all code and supplimental material for "Untangling phylogenetic diversity's role in evolutionary computation using a suite of diagnostic fitness landscapes" which was presented at <a href="https://gecco-2022.sigevo.org/HomePage">The Genetic and Evolutionary Computation Conference</a>, 2022. 
 
+<a href="https://zenodo.org/badge/latestdoi/486358143"><img src="https://zenodo.org/badge/486358143.svg" alt="DOI"></a>
+
   **Contents:**
   - [Abstract](https://github.com/emilydolson/phylodiversity-metrics-in-EC-GPTP-2021#abstract)
   - [Supplemental information](https://github.com/emilydolson/phylodiversity-metrics-in-EC-GPTP-2021#supplemental-information)
