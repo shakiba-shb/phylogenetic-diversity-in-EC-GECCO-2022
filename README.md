@@ -5,7 +5,6 @@ This repository contains all code and supplimental material for "Untangling phyl
 
   **Contents:**
   - [Abstract](https://github.com/shakiba-shb/phylogenetic-diversity-in-EC-GECCO-2022#abstract)
-  - [Supplemental information]()
   - [Dependencies](https://github.com/shakiba-shb/phylogenetic-diversity-in-EC-GECCO-2022#dependencies)
   - [Compilation](https://github.com/shakiba-shb/phylogenetic-diversity-in-EC-GECCO-2022#compilation)
   - [Authors](https://github.com/shakiba-shb/phylogenetic-diversity-in-EC-GECCO-2022#authors)
